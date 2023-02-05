@@ -1,0 +1,109 @@
+#cookiePopup {
+background-color: #363638;
+position: fixed;
+font-size: 14px;
+width: 70vw;
+max-width: 42.85em;
+box-shadow: 0 0 2em rgba(5, 0, 31, 0.15);
+font-family: "Poppins", sans-serif;
+text-align: justify;
+line-height: 1.8em;
+padding: 2em 1.4em;
+border-radius: 6px; transition: all 0.5s ease-in;
+}
+
+#cookiePopup img {
+display: block;
+width: 150px;
+transform: translateZ(0); 
+position: relative;
+margin: auto;
+}
+
+#cookiePopup p {
+text-align: center; 
+margin: 1.4em 0;
+color: #fff
+}
+
+#cookiePopup button {
+  padding: 16px 24px;
+  border-radius: 8px;
+  border: 1px solid #B899FF;
+  background: linear-gradient(90deg, #4C1D95 0%, #6D28D9 12.5%, #8B5CF6 25%, #AC89FB 37.5%, #B899FF 48.96%, #AC89FB 61.46%, #8B5CF6 74.48%, #6D28D9 86.98%, #4C1D95 100%);
+  color: white;
+
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  font-family: 'Alex Brush', cursive;
+  font-size: 20px;
+  margin: auto;
+}
+
+#cookiePopup a {
+color: #6859fe;
+}
+
+.show {
+visibility: visible;
+bottom: 2em; 
+right: 2em;
+}
+
+.hide {
+visibility: hidden;
+bottom: 2em; 
+right: 2em;
+}
+
+@media (max-width: 1000px) {
+#cookiePopup {
+background-color: #363638;
+position: fixed;
+font-size: 14px;
+width: 70vw;
+max-width: 42.85em;
+box-shadow: 0 0 2em rgba(5, 0, 31, 0.15);
+font-family: "Poppins", sans-serif;
+text-align: justify;
+line-height: 1.8em;
+padding: 2em 1.4em;
+border-radius: 6px; transition: all 0.5s ease-in;
+}
+
+#cookiePopup img {
+display: block;
+width: 150px;
+transform: translateZ(0); 
+position: relative;
+margin: auto;
+}
+
+#cookiePopup p {
+text-align: center; 
+margin: 1.4em 0;
+color: #fff
+}
+
+#cookiePopup button {
+  padding: 16px 24px;
+  border-radius: 8px;
+  border: 1px solid #B899FF;
+  background: linear-gradient(90deg, #4C1D95 0%, #6D28D9 12.5%, #8B5CF6 25%, #AC89FB 37.5%, #B899FF 48.96%, #AC89FB 61.46%, #8B5CF6 74.48%, #6D28D9 86.98%, #4C1D95 100%);
+  color: white;
+
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  font-family: 'Alex Brush', cursive;
+  font-size: 20px;
+  margin: auto;
+}
+
+#cookiePopup a {
+color: #6859fe;
+}
+}

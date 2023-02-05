@@ -1,0 +1,325 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --body-bg-color: #387373;
+  --text-color: #1e292b;
+  --bg-cards: #f7fff9;
+  --bg-techs: #967bd4;
+}
+
+#image,
+#gradient {
+  height: 100%;
+  width: 100%;
+  z-index:-1000;
+}
+
+#image,
+#gradient {
+  position: fixed;
+  top: 0;
+}
+
+
+#image {
+  background-image: url(https://scontent.fccm1-1.fna.fbcdn.net/v/t39.30808-6/329119706_882621259616905_3520452783116733981_n.jpg?stp=dst-jpg_s1080x2048&_nc_cat=100&ccb=1-7&_nc_sid=730e14&_nc_ohc=dkOq9kokD7cAX83h3Xj&_nc_ht=scontent.fccm1-1.fna&oh=00_AfDVue0Kj8vB9T0iwfc8j07U4pq2aR1B8UV2QZNBTPEo-g&oe=63E49959);
+  background-position: center center;
+  background-repeat: no-repeat no-repeat;
+  background-size: cover;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #5e38b4;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #482c86;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid #482c86;  /* creates padding around scroll thumb */
+}
+body{ 
+  display: flex; 
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
+}
+
+main {
+  display: flex;
+
+  width: 100%;
+
+  flex-direction: column;
+
+}
+  main > h2, #MyProjects > div {
+    border-radius: 10px;
+    margin: 15px;
+    padding: .5rem 1.5rem;
+    background-color: var(--bg-cards);
+  } 
+
+  #MyProjects > div {
+    display: flex;
+    flex-direction: column;
+    max-width: 100vw;
+    height: auto;
+    flex: 1;
+    cursor: pointer;
+    justify-content: space-between;
+  }
+
+
+  a.link {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+
+    main > h2{
+      padding: 1rem;
+    }  
+      main > div#MyProjects, samp {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .comentario {
+        padding: 15px 0;
+        
+      }
+        div.header, .footer  {
+          display: flex;
+          gap: 5%;
+          margin: 1rem 0 10px 0;
+        }
+
+        .footer {
+          justify-content: space-between;
+        }
+
+        .star::after, .branch::after{
+          content: '100';
+        }
+
+
+        span {
+          display: flex;
+          gap: 10px;
+          align-items: center;
+        }
+
+        span > .JavaScript {
+          width: 15px;
+          height: 15px;
+          background-color: #f1e05a;
+          border-radius: 100%;
+        }
+
+        span > .css {
+          width: 15px;
+          height: 15px;
+          background-color: #563d7c;
+          border-radius: 100%;
+        }
+
+        span > .HTML {
+          width: 15px;
+          height: 15px;
+          background-color: #e34c26;
+          border-radius: 100%;
+        }
+
+        article {
+          display: flex;
+        
+          flex-direction: column;
+        }
+          article > div {
+            width: 16rem;
+            flex-wrap: wrap;
+            margin: 0.5rem 0.6rem;
+            padding: 0.5rem;
+            border-radius: 15px;
+            background-color: var(--bg-cards);
+          }
+            article > div > h2, h3 {
+              padding: 0 125px 15px 0;
+            }
+              article > div > ul,li, a {
+                list-style: none;
+                text-decoration: none;
+                color: var(--text-color);
+              }
+
+ Education {
+  display: flex;
+
+  flex-direction: column;
+}
+Education  > div {
+    flex-wrap: wrap;
+    
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 15px;
+
+    background-color: var(--bg-cards);
+  }
+  Education  > div > h2, h3 {
+    padding: 5px 125px 11px 0;
+    }
+    Education  > div > ul,li, a {
+        list-style: none;
+        text-decoration: none;
+        color: var(--text-color);
+      }
+
+
+/* Perfil */
+#profile{
+  margin-top: 0.7rem;
+  
+  text-align: center;
+}
+  #profile > img {
+    width: 220px;
+
+    margin: 15px auto;
+
+    border-radius: 100%;
+  }
+    #profile > h1 {
+      font-size: 2rem;
+    }
+    #profile > p {
+      font-size: .9rem;
+      font-family: 'Roboto mono', monospace;
+    }
+
+  
+/* Navegação entre Links */
+  #nav li, a {
+    display: flex;
+
+    width: 100%;
+    height: 50px;
+    padding: 5px 5px;
+    margin: 8px 0; 
+
+    align-items: center;
+    gap: 10px;
+
+    cursor: pointer;
+    border-radius: 6px;
+
+    background-color: var(--bg-techs);
+  }
+
+
+/* #technology */
+.skill{
+  text-align: right;
+  padding-top: 2.5px; 
+  padding-bottom: 2px; 
+  color: white;
+  
+}
+
+.skill-container{ 
+  width: 100%;
+  height: 5px;
+  background-color: #b8b2c5;
+  margin: 5px 0px;
+}
+
+.html{    
+  width: 89%;
+  background-color: black;
+}
+
+.css{    
+  width: 94%;
+  background-color: black;
+}
+
+.js{    
+  width: 65%;
+  background-color: black;
+}
+/* Experiencia */
+#xp > p {
+  padding: 5px 10px;
+}
+
+
+/* Escolariedade e conhecimento */
+#school h4 {
+  margin: 5px 0 5px -10px;
+}
+  #school ul > li {
+    padding: 5px 0 0 15px;
+    font-family: 'Roboto Mono', monospace;
+  }
+
+  
+  
+  @media only screen and (max-width: 820px) {
+    body {
+      flex-wrap: wrap;
+    }
+
+    article {
+      display: flex;
+
+      padding: 1rem;
+
+      flex-direction: row;
+      flex-wrap: wrap;
+
+      justify-content: space-evenly;
+    }
+
+    article > div {
+      width: 40%;
+    }
+
+    #nav {
+      margin-top: 2rem;
+    }
+
+    #school{
+      width: 88%;
+    }
+  }
+
+  @media only screen and (max-width: 590px) {
+    article > div {
+      width: 90%;
+    }
+    #technology {
+      text-align: left; 
+    }
+    #MyProjects > div.projetos {
+      height: auto;
+    }
+    .projetos .footer, span {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 5px;
+    }
+    #technology > h3 {
+      margin-left: 10px;
+      text-align: left;
+    }
+    #school{
+      width: 90%;
+    }
+  }

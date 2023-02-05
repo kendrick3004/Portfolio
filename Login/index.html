@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Login</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="shortcut icon" href="./code/img/login.png" type="image/png">
+    <link rel="stylesheet" href="./code/css/cookies.css">
+    <link rel="stylesheet" href="./code/css/index.css">
+    <link rel="stylesheet" href="./code/css/mobile.css">
+    <link rel="stylesheet" href="./code/css/slide.css">
+
+  </head>
+
+<body class="fundo" >
+
+  <div id="cookiePopup" class="hide" style="z-index: 34;">
+    <img src="./code/svg/cookies.svg">
+    <p>
+      Usamos cookies e outras tecnologias semelhantes para melhorar a sua experiência em nossos serviços.<br>
+      Ao utilizar nossos serviços, você concorda com tal monitoramento. <br>
+      Você pode a qualquer momento excluir os cookies armazenados no seu computador através das configurações do seu navegador web.<br>
+      <a href="#">  Cookie Policy & Privacy</a>
+    </p>
+    <button id="acceptCookie">Concordo</button>
+  </div>
+
+  <div id="overlay-not">
+    <div id="center-not">
+    <div id="container-not">
+      <div id="dialogContent-not">
+        <p>acesso negado</p>
+      </div>
+      <div id="rejected"></div>
+    </div>
+    </div>
+  </div>
+
+  <div id="overlay-right">
+    <div id="center-right">
+    <div id="container-right">
+      <div id="dialogContent-right">
+        <p>acesso garantido</p>
+      </div>
+      <div id="accept"></div>
+    </div>
+    </div>
+  </div>
+
+    <div class="container">
+      <div class="container-login">
+      
+        <div class="wrap-login">
+          <form id="form1" class="login-form">
+            <span class="login-form-title">
+              COMPLETE O FORMULÁRIO COM AS SUAS CREDENCIAIS
+            </span>
+
+            <div class="wrap-input margin-top-35 margin-bottom-35">
+              <input class="input-form" type="text" name="email" autocomplete="off" id="login">
+              <span class="focus-input-form" data-placeholder="Usuário"></span>
+            </div>
+
+            <div class="wrap-input margin-bottom-35">
+              <input class="input-form" type="password" name="password" autocomplete="off" id="senha">
+              <span class="focus-input-form" data-placeholder="Senha"></span>
+            </div>
+            <div class="p3">
+              Login & Senha: admin
+            </div>    
+            <div class="container-login-form-btn alert">
+              <button class="login-form-btn" onclick="takeValue(); return false">
+                Login
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  
+    </div>
+    <script src="./code/js/cookies.js"></script>
+    <script src="./code/js/index.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,112 @@
+.fundo{
+    background: url(../img/318582626_1108436223151664_4479569434496999009_n.jpg) no-repeat bottom center scroll;
+    background-size: cover;
+    }
+    
+    #overlay-not {
+        display: none;
+        background-color: rgba(0, 0, 0, 0.7);
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 9000;
+        vertical-align: middle;
+    }
+    #container-not {
+        position: absolute;
+        width: 600px;
+        height: 150px;
+        left: calc(50% - 600px/2);
+        top: calc(50% - 150px/2 - 0.5px);
+        
+        background: #890000;
+        border-radius: 25px;
+    }
+    
+    #center-not {
+        box-sizing: border-box;
+        position: absolute;
+        width: 650px;
+        height: 200px;
+        left: calc(50% - 650px/2);
+        top: calc(50% - 200px/2 - 0.5px);
+    
+        border: 15px solid #890000;
+        border-radius: 50px;
+    }
+    
+    
+    
+    #dialogContent-not {
+        position: absolute;
+        width: 600px;
+        height: 150px;
+        left: calc(50% - 600px/2);
+        top: calc(50% - 150px/2);
+    }
+        
+    #dialogContent-not p {
+        font-family: 'Monda';
+        font-weight: 400;
+        font-size: 60px;
+        display: flex;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        text-align :center;
+        justify-content: center;
+        margin-top: 35px;
+    }
+    
+    
+    #overlay-right {
+        display: none;
+        background-color: rgba(0, 0, 0, 0.7);
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 9000;
+        vertical-align: middle;
+    }
+    
+    #container-right {
+        position: absolute;
+        width: 600px;
+        height: 150px;
+        left: calc(50% - 600px/2);
+        top: calc(50% - 150px/2 - 0.5px);
+        
+        background: #008000;
+        border-radius: 25px;
+    }
+    
+    #center-right{
+        box-sizing: border-box;
+        position: absolute;
+        width: 650px;
+        height: 200px;
+        left: calc(50% - 650px/2);
+        top: calc(50% - 200px/2 - 0.5px);
+    
+        border: 15px solid #008000;
+        border-radius: 50px;
+    }
+    
+    #dialogContent-right {
+        position: absolute;
+        width: 600px;
+        height: 150px;
+        left: calc(50% - 600px/2);
+        top: calc(50% - 150px/2);
+    }
+        
+    #dialogContent-right p {
+      font-family: 'Monda';
+      font-weight: 400;
+      font-size: 60px;
+      display: flex;
+      text-transform: capitalize;
+      color: #FFFFFF;
+      text-align :center;
+      justify-content: center;
+      margin-top: 35px;
+    }

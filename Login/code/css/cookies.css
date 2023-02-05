@@ -1,0 +1,117 @@
+#cookiePopup {
+  background-color: #363638;
+  position: fixed;
+  font-size: 14px;
+  width: 85vw;
+  max-width: 42.85em;
+  box-shadow: 0 0 2em rgba(5, 0, 31, 0.15);
+  font-family: "Poppins", sans-serif;
+  text-align: justify;
+  line-height: 1.8em;
+  padding: 2em 1.4em;
+  border-radius: 10px; 
+  transition: all 1.0s linear;
+  box-shadow: 2px 2px 100px 0px #fff;
+  }
+  
+  #cookiePopup img {
+  display: block;
+  width: 150px;
+  transform: translateZ(0); 
+  position: relative;
+  margin: auto;
+  }
+  
+  #cookiePopup p {
+  font-family: "Poppins", sans-serif;
+  text-align: center; 
+  margin: 1.4em 0;
+  color: #fff
+  }
+  
+  #cookiePopup button {
+   padding: 16px 24px;
+  border-radius: 8px;
+  border: 1px solid #B899FF;
+  background: #000;
+  color: white;
+  
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  margin: auto;
+  }
+  
+  #cookiePopup a {
+  color: #6859fe;
+  
+  }
+
+.show {
+visibility: visible;
+bottom: 26px; 
+right: 26px;
+left: 26px;
+}
+
+.hide {
+visibility: hidden;
+bottom: 26px; 
+right: 26px;
+left: 26px;
+}
+
+.p3 {
+  display:flex;
+  color:#fff;
+  align-items: center;
+  justify-content: center;
+  margin:20px;
+}
+@media (max-width: 1000px) {
+  #cookiePopup {
+    position: fixed;
+    font-size: 14px;
+    max-width: 42.85em;
+    box-shadow: 0 0 2em rgba(5, 0, 31, 0.15);
+    font-family: "Poppins", sans-serif;
+    text-align: justify;
+    line-height: 1.8em;
+    padding: 2em 1.4em;
+    border-radius: 10px; 
+    transition: all 0.1s ease-in;
+    box-shadow: 2px 2px 100px 0px #fff;
+    line-height: 23px;
+    }
+    
+    #cookiePopup img {
+    display: block;
+    width: 150px;
+    transform: translateZ(0); 
+    position: relative;
+    margin: auto;
+    }
+    
+    #cookiePopup p {
+    text-align: center; 
+    margin: 1.4em 0;
+    }
+    
+    #cookiePopup button {
+    background-color: #000;
+    border: none; color: #ffffff;
+    font-size: 1.2em;
+    padding: 1em 1.4em;
+    display: block;
+    position: relative; 
+    margin: auto;
+    }
+    
+    #cookiePopup a {
+    color: #6859fe;
+    text-decoration: none;
+    }
+  }
