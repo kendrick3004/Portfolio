@@ -298,7 +298,10 @@ Education  > div {
     #school{
       width: 88%;
     }
-  }
+    main > div#MyProjects, samp {
+    display: block;
+  } 
+}
 
   @media only screen and (max-width: 590px) {
     article > div {
@@ -322,4 +325,6 @@ Education  > div {
     #school{
       width: 90%;
     }
+    main > div#MyProjects, samp {
+    display: block;
   }
